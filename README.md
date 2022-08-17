@@ -82,7 +82,6 @@ expo --version
 
 ## Windows
 
-### Windows
 - Download the [Node.js (LTS)](https://nodejs.org/en/)
 
 - Double-click the .exe file and install it.
