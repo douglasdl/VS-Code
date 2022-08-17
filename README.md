@@ -54,6 +54,30 @@ npm -v
 ## Yarn
 
 
+## NVM
+Install NVM
+```sh
+curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash 
+```
+Load the environment to use NVM
+```sh
+source ~/.bashrc
+```
+List all NPM versions
+```sh
+nvm ls-remote
+```
+
+Install LTS
+```sh
+nvm install v16.17.0
+```
+Change the used version
+```sh
+nvm use v16.17.0
+```
+
+
 ## Expo-cli
 ```sh
 npm install -g expo-cli
