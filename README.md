@@ -11,11 +11,12 @@ sudo dpkg -i file_name.deb
 
 
 ## Node.js
+### Windows
 - Download the [Node.js (LTS)](https://nodejs.org/en/)
 
-- For Windows just double-click the .exe file and install it.
+- Double-click the .exe file and install it.
 
-- For Linux run:
+### Linux
 Update Packages
 ```sh
 sudo apt update 
@@ -30,8 +31,6 @@ Check the Node.js Version
 ```sh
 node -v 
 ```
-
-node-v16.17.0-linux-x64.tar.xz
 
 ## Npm
 - For Linux run:
