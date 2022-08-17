@@ -1,22 +1,13 @@
 # VS-Code
 
 - Download the [Visual Studio Code](https://code.visualstudio.com/)
-
-- For Windows just double-click the .exe file and install it.
-
-- For Linux run:
+- Install the Visual Studio Code:
 ```sh
 sudo dpkg -i file_name.deb
 ```
 
-
 ## Node.js
-### Windows
-- Download the [Node.js (LTS)](https://nodejs.org/en/)
 
-- Double-click the .exe file and install it.
-
-### Linux
 Update Packages
 ```sh
 sudo apt update 
@@ -33,8 +24,7 @@ Check the Node.js Version
 node -v 
 ```
 
-## Npm
-- For Linux run:
+## NPM (Node Package Manager)
 Update Packages
 ```sh
 sudo apt update 
@@ -51,10 +41,7 @@ npm -v
 ```
 
 
-## Yarn
-
-
-## NVM
+## NVM (Node Version Manager)
 Install NVM
 ```sh
 curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash 
@@ -78,9 +65,25 @@ nvm use v16.17.0
 ```
 
 
-## Expo-cli
+## Expo-CLI
+Install Expo
 ```sh
 npm install -g expo-cli
 ```
 
-expo -V
+Check Expo version
+```sh
+expo --version
+```
+
+
+
+
+
+## Windows
+
+### Windows
+- Download the [Node.js (LTS)](https://nodejs.org/en/)
+
+- Double-click the .exe file and install it.
+
