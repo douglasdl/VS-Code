@@ -82,8 +82,20 @@ Check Expo version
 expo --version
 ```
 
+Create the App
+```sh
+expo init appname
+```
 
+Start the App (Local)
+```sh
+expo start
+```
 
+Start the App (Remote)
+```sh
+expo start --tunnel
+```
 
 
 ## Windows
