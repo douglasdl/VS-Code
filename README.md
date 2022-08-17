@@ -24,7 +24,8 @@ sudo apt update
 
 Install Node.js
 ```sh
-sudo apt install nodejs
+curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash -
+sudo apt-get install -y nodejs
 ```
  
 Check the Node.js Version
@@ -53,4 +54,9 @@ npm -v
 ## Yarn
 
 
-## Expo
+## Expo-cli
+```sh
+npm install -g expo-cli
+```
+
+expo -V
